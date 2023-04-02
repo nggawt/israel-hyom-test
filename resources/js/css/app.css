@@ -1,0 +1,16 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  
+  min-height: 80%;
+}
+@media (max-width: 413px){
+
+  body{
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+}
