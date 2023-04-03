@@ -122,9 +122,17 @@ JWT_TTL=1
 JWT_SECRET=fZZXfLO5Ab5lAua5QSnjqtlu84BGgTkTXnZ4XVZ4yQCJ4PyWANx8utnPYoVKwjLW
 
 ###
+
 	8. run commands:
 		a. composer install
 		b. npm install
 		c. docker compose exec israpp php artisan migrate:fresh --seed
 		d. npm run prod
 	9. open browser with url "http://localhost:8082"
+	
+features
+	1. authentication registration , login system
+	2. view postes with in carousel infinite loop and only if has post in last 2 weeks order by created at
+	3. view writer in table order by alphabetically
+	4. react redux crud operation and caching system by end point url
+	5. code documention
